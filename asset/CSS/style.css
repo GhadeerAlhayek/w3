@@ -1,9 +1,19 @@
 
+
+
 section {
     border: 2px solid black;
 }
-p {
-    color : rgba(2, 3, 1, .5)
+p span:first-child {
+
+    color : red;
+    font-size: 30px;
+}
+/* An + B*/
+p span:nth-child(3n+1) {
+
+    color : blue;
+    font-size: 30px;
 }
 
 figure {
@@ -17,4 +27,27 @@ figure {
 
 * {
     margin: 100px 100px 100px 100px  ;
+}
+
+a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+}
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: green;
+
+}
+
+h1 {
+    font-family: "Playwrite BR Guides";
+    text-align: center;
+}
+
+#ID {
+    text-decoration: underline;
+    text-transform: uppercase ;
 }
